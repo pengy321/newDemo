@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+    font-weight: normal;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.2);
+    -webkit-touch-callout: none;
+    -webkit-user-modify: read-only;
+    overflow: hidden;
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  button, input[type="button"], input[type="submit"] {
+    background-color: #f1f1f1;
+    color: #222;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.2s ease;
+
+  }
+
+
+ 
+  .boxNav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+  }
+  
+  .boxNav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+
+  .custom-file-upload {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .upload-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  .image-preview {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    background-image: url('./logo192.png'); /* 替换为你的图片路径 */
+    background-size: cover;
+    margin-top: 20px;
+
+  }
+  
+  .text-description {
+    width: 100%;
+    height: 30%;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .textInput{
+    border: none;
+    width: 300px;
+    height: 200px;
+  }
+  .boxPretto{
+    width: 700px;
+    border: 1px solid #575757;
+  }
+
+
+  .boxImageShow{
+    width: 100%;
+  }
+  .boxImageShow>div{
+    /* width: 200px; */
+    height: 60px;
+    border: 1px solid #575757;
+    text-align: center;
+    line-height: 60px;
+  }
